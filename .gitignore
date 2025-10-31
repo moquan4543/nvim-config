@@ -1,0 +1,8 @@
+# Lazy.nvim plugins
+/lazy/
+
+# log, cache
+*.log
+*.swp
+*.swo
+.viminfo
