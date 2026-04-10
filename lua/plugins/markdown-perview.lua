@@ -6,7 +6,8 @@ return {
     vim.g.mkdp_filetypes = { "markdown" }
   end,
   config = function()
-    vim.keymap.set("n", "<leader-C-s>", ":MarkdownPreview<CR>")
+    vim.keymap.set("n", "<C-s>", ":MarkdownPreview<CR>")
+    vim.keymap.set("n", "<M-s>", ":MarkdownPreviewStop<CR>")
   end,
         
   ft = { "markdown" },
