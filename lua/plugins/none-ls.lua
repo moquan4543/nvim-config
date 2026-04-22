@@ -15,5 +15,7 @@ return {
 		})
 
 		vim.keymap.set("n", "<leader>gf", vim.lsp.buf.format, {})
+		vim.keymap.set("n", "<C-M-l>", vim.lsp.buf.format, {}) -- JetBrains: Reformat code (Ctrl+Alt+L)
+		vim.keymap.set("n", "<leader>f", vim.lsp.buf.format, {})
 	end,
 }
